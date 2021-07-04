@@ -27,5 +27,9 @@
     "plop": "^2.6.0",
     "prettier": "^2.0.5",
     "watchpack": "^2.2.0"
+  },
+  "resolutions": {
+    "trim-newlines": "3.0.1",
+    "normalize-url": "4.5.1"
   }
 }
