@@ -1,0 +1,20 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ExampleClass = void 0;
+
+class ExampleClass {
+  method() {
+    return 'bar';
+  }
+
+}
+
+exports.ExampleClass = ExampleClass;
+
+(() => {
+  const example = new ExampleClass();
+  console.log(example.method());
+})();

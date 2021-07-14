@@ -1,6 +1,6 @@
 {
   "name": "@shopify/babel-preset",
-  "version": "24.1.1",
+  "version": "24.1.1-loose-assumptions-beta.0",
   "license": "MIT",
   "description": "Shopify's org-wide Babel preset",
   "main": "index.js",
@@ -35,5 +35,8 @@
     "@babel/runtime": "^7.14.6",
     "babel-plugin-react-test-id": "^1.0.2",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5"
   }
 }

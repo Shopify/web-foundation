@@ -1,0 +1,18 @@
+{
+    "extends": "@shopify/typescript-configs/library",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "rootDir": ".",
+      "outDir": "./build",
+      "pretty": true,
+      "jsx": "react",
+      "strict": true,
+      "importHelpers": true,
+      "skipLibCheck": false,
+      "esModuleInterop": true,
+      "strictNullChecks": true
+    },
+    "include": ["./**/*"],
+    "exclude": ["**/*.test.ts", "**/*.test.tsx"]
+  }
+  
